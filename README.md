@@ -7,7 +7,7 @@ Show views which are hidden behind other views with animation
 ## Usage
 
 ``` swift
-mainView.openSecondaryView(view: secondaryView)
+mainView.openView(secondaryView)
 
-mainView.closeSecondaryView(view: secondaryView)
+mainView.closeView(secondaryView)
 ```
