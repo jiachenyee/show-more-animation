@@ -10,8 +10,8 @@ import UIKit
 
 extension UIView {
     
-    // Usage: UIView.openSecondaryView(view: UIView)
-    func openSecondaryView(view: UIView) {
+    // Usage: UIView.openView(UIView)
+    func openView(_ view: UIView) {
         UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseIn, animations: {
             view.transform = CGAffineTransform(translationX: 1, y: 100)
         }) { (_) in
@@ -24,8 +24,8 @@ extension UIView {
         }
     }
     
-    // Usage: UIView.closeSecondaryView(view: UIView)
-    func closeSecondaryView(view: UIView) {
+    // Usage: UIView.closeView(UIView)
+    func closeView(_ view: UIView) {
         UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseIn, animations: {
             view.transform = CGAffineTransform(translationX: 1, y: 100)
         }) { (_) in
